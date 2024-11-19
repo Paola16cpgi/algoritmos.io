@@ -1,0 +1,54 @@
+/* importar tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+}
+
+section{
+    width: 100%;
+    text-align: center;
+    padding: 120px 0;
+    background: #221919;
+    min-height: 100vh;
+}
+
+h1{
+    color: aqua;
+    font-size: 50px;
+}
+
+h2{
+    color: aqua;
+    font-size: 34px;
+    margin: 20px 0;
+}
+
+p{
+    color: #fff;
+    font-size: 32px;
+}
+
+#con-botones{
+    width: 80%;
+    margin: 50px auto;
+}
+
+button{
+    padding: 14px 30px;
+    background: transparent;
+    border: 2px solid aqua;
+    margin: 10px;
+    transition: 4s;
+    cursor: pointer;
+    color: #fff;
+}
+
+button:hover{
+    background: aqua;
+    color: #000;
+    border-radius: 30px;
+}
